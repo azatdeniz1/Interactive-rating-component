@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Overpass", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: hsl(213, 19%, 18%);
+  width: 16.5rem;
+  height: 37vh;
+  margin: auto;
+  border-radius: 17px;
+  padding: 1.4rem;
+}
+.img {
+  padding: 8px;
+  margin-bottom: 1.5rem;
+  background-color: hsl(213, 19%, 21%);
+  border-radius: 40px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.button {
+  background-color: hsl(213, 19%, 21%);
+  color: hsl(210, 11%, 68%);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50px;
+  border: none;
+}
+.button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  transition: 200ms;
+}
+.submit {
+  width: 100%;
+  min-height: 2rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+}
+.submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  transition: 200ms;
+}
+.selected {
+  background-color: hsl(216, 12%, 54%);
+  color: white;
+}
+.thank {
+  margin: auto;
+}
+.face-1 {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.face-2 {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 11px;
+}
+.rating {
+  color: hsl(25, 82%, 47%);
+  background-color: hsl(213, 19%, 21%);
+  padding: 4px 12px;
+  border-radius: 15px;
+  margin: 15px 0px;
+}
+.hidden {
+  display: none;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+p {
+  font-size: 12px;
+  font-weight: 300;
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 2rem;
+}
